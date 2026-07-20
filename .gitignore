@@ -1,0 +1,21 @@
+# ==========================================================================
+# NUNCA subir datos de pacientes a este repositorio — solo código.
+# Si generas estos archivos localmente (con los scripts de scripts/),
+# se quedan en tu computador o en la red institucional, no en git.
+# ==========================================================================
+
+# Bases de datos crudas o normalizadas (contienen RUT, nombre, dirección, teléfono)
+datos/
+salida/
+app/datos_usuarios.js
+*.csv
+
+# Cachés de geocodificación (contienen direcciones reales)
+cache_geocodificacion.json
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+node_modules/
+__pycache__/
+*.pyc
